@@ -5,6 +5,7 @@ import (
 	"runtime/debug"
 )
 
+//
 func main() {
 	if bi, ok := debug.ReadBuildInfo(); ok {
 		fmt.Println(bi)
